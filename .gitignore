@@ -1,0 +1,88 @@
+# ==========================
+# 1. Global / OS Files (운영체제 임시파일)
+# ==========================
+.DS_Store
+Thumbs.db
+*.log
+
+# ==========================
+# 2. Python / Backend (Flask)
+# ==========================
+# 가상환경 폴더
+venv/
+env/
+.venv/
+anaconda3/
+
+# 파이썬 컴파일/캐시 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Flask 인스턴스 폴더
+instance/
+.webassets-cache
+
+# 환경 변수 및 비밀키
+.env
+.flaskenv
+config.py
+
+# ==========================
+# 3. Node.js / Frontend (React)
+# ==========================
+# 라이브러리 폴더
+my-persona-app/node_modules/
+
+# 빌드 결과물
+dist/
+build/
+*.local
+
+# 환경 변수
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 로그 파일
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================
+# 4. Project Data & AI Models
+# ==========================
+# 12GB 대용량 CSV 데이터 제외
+data/*.csv
+data/*.npz
+data/*.xlsx
+
+# 학습된 K-Means 모델 파일
+backend/model/*.pkl
+model/*.pkl
+
+# GGUF 등 대형 LLM 모델 파일
+*.gguf
+*.bin
+backend/model/*.gguf
+model/*.gguf
+
+# ==========================
+# 5. IDE / Editor Settings
+# ==========================
+.vscode/
+.idea/
+*.swp
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

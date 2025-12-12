@@ -1,0 +1,32 @@
+/* 폰트 정의 */
+@font-face {
+    font-family: 'Nanum Myeongjo';
+    src: url('@/assets/fonts/NanumMyeongjo.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nanum Myeongjo';
+    src: url('@/assets/fonts/NanumMyeongjoBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nanum Myeongjo';
+    src: url('@/assets/fonts/NanumMyeongjoExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nanum Square';
+    src: url('@/assets/fonts/NanumSquareB.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
